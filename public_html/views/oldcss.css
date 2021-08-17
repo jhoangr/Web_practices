@@ -1,0 +1,87 @@
+option[value="1"]{color:darkblue;}
+
+/*
+#imgram{
+position: relative;
+top:50px;
+}
+
+#imgCPU{
+position: relative;
+top:50px;
+left:50px;
+}
+#imgHD{
+position: relative;
+top:50px;
+left: 100px;
+}
+#imgGPU{
+position: relative;
+top:50px;
+left: 200px;
+}
+*/
+
+h1 {
+    color: darkblue;
+}
+
+h1,h3{font-style:Italic;
+}
+header p{font family:"courier new";}
+
+
+#contenidor{
+background-color:"none";
+padding:5px;
+display:grid;
+grid-column-gap:300px;
+grid-row-gap:300px;
+grid-template-columns:50px auto 75px;
+grid-template-rows:30px 60px auto 50px;
+
+justify-content:center;
+}
+
+#contenidor div{ background-color:"none"; 
+padding:5px;
+margin:2px;
+text-aling:center;
+}
+
+
+
+#contenidor2{
+background-color:none;
+padding:5px;
+display:grid;
+grid-column-gap:5px;
+grid-row-gap:5px;
+grid-template-areas:"titol titol titol"
+                    "menuGran login login"
+                    " ml ml ml"
+                    " ml ml ml"
+                    "ml ml ml" "ml ml ml";
+}
+
+#contenidor2 div{ background-color:gray; 
+padding:5px;
+margin:2px;
+text-aling:center;
+}
+
+/*h1,h3{font-style:Italic;
+}
+header p{font family:"courier new";}
+
+fancy{font-family:Times;
+}
+header.fancy{color:magenta;}
+section.stadistics header h3{color:red;}
+table,th,td{border:1px solid black;border-collapse:collaps;}
+footer img{float:left;padding: 0 0 0 10px;
+text-decoration:noone;
+}
+p.important{font-weight:bold;font-size:30px;backgroun-color:aqua}
+footer p{float:left;margin-top:30px;}*/
